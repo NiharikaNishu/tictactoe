@@ -1,0 +1,100 @@
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 0 5% 0 5%;
+  background: black;
+  color: red;
+}
+
+#game-container {
+  margin: 10px 10px;
+}
+#resultWinner {
+  align-content: center;
+  height: 70%;
+  width: 100%;
+  color: green;
+  font-size: 36px;
+  font-weight: bold;
+  border-radius: 5px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+#resultDraw {
+  display: flex;
+  align-content: center;
+  height: 70%;
+  width: 100%;
+  color: yellow;
+  font-size: 36px;
+  font-weight: bold;
+  border-radius: 5px;
+  background-image: url("draw.gif");
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.cell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  font-weight: bold;
+  height: 70px;
+  width: 70px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background: white;
+}
+
+.hide {
+  display: none;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.form-control {
+  width: 70%;
+}
+
+.icon {
+  width: 10%;
+  height: 10%;
+  padding: 5px;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 5px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.page-header {
+  display: flex;
+  flex-direction: column;
+}
+
+#home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+#turn {
+  color: black;
+}
+
+@media only screen and (max-width: 600px) {
+  .icon {
+    width: 30%;
+    margin-top: 15px;
+  }
+}
